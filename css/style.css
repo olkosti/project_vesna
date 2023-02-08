@@ -1,0 +1,95 @@
+/*Natalie font connection start*/
+
+@font-face {
+  font-family: "Noah-Regular";
+  src: local("Noah Regular"), local("Noah-Regular"),
+    url("../fonts/Noah-Regular.woff2") format("woff2"),
+    url("../fonts/Noah-Regular.woff") format("woff"),
+    url("../fonts/Noah-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Noah-Bold";
+  src: local("Noah Bold"), local("Noah-Bold"),
+    url("../fonts/Noah-Bold.woff2") format("woff2"),
+    url("../fonts/Noah-Bold.woff") format("woff"),
+    url("../fonts/Noah-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Geometria-Medium";
+  src: url("../fonts/geometria-medium.eot");
+  src: url("../fonts/geometria-medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/geometria-medium.woff2") format("woff2"),
+    url("../fonts/geometria-medium.woff") format("woff"),
+    url("../fonts/geometria-medium.ttf") format("truetype"),
+    url("../fonts/geometria-medium.svg#geometria-medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Geometria";
+  src: local("Geometria Regular"), local("Geometria-Regular"),
+    url("../fonts/Geometria-Regular.woff2") format("woff2"),
+    url("../fonts/Geometria-Regular.woff") format("woff"),
+    url("../fonts/Geometria-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MarckScript-Regular";
+  src: local("Marck Script Regular"), local("Marck-Script-Regular"),
+    url("../fonts/MarckScript-Regular.woff2") format("woff2"),
+    url("../fonts/MarckScript-Regular.woff") format("woff"),
+    url("../fonts/MarckScript-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*Natalie font connection end*/
+
+/*Natalie default styles start*/
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  min-height: 100%;
+  min-width: 250px;
+  font-family: "Noah-Regular";
+  font-size: 24px;
+}
+/*Natalie default styles end*/
