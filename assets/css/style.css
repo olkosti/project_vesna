@@ -93,3 +93,63 @@ img {
   font-size: 24px;
 }
 /*Natalie default styles end*/
+<!--Gulya start-->
+.reviews {
+  min-height: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header {
+  height: 30%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  margin-block-end: 5%;
+  
+}
+.reviews_main {
+  height: 378px;
+
+  
+ display: flex;
+ justify-content: space-between;
+
+}
+.reviews__container_block-1 {
+ 
+ 
+  display: flex;
+  position: relative;
+  height: 400px;
+  width: 546px;
+  margin-left: 200px;
+padding-block-end: 50px;
+  
+  
+  
+}
+.reviews__container_block-2 {
+  min-height: 60%;
+  width: 50%;
+  display: flex;
+  font-size:small;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-right: 100px;
+  margin-left: 50px;
+}
+
+.reviews__logo {
+ 
+  width: 54px;
+  height: 54px;
+}
+#reviewspic {
+
+}
+
+<!--Gulya finish-->
