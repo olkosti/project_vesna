@@ -81,7 +81,7 @@ h6 {
 }
 
 img {
-  width: 100%;
+  /* width: 100%; */
   max-width: 100%;
   height: auto;
 }
@@ -93,6 +93,7 @@ img {
   font-size: 24px;
 }
 /*Natalie default styles end*/
+<<<<<<< HEAD
 <!--Gulya start-->
 .reviews {
   min-height: 440px;
@@ -153,3 +154,93 @@ padding-block-end: 50px;
 }
 
 <!--Gulya finish-->
+=======
+
+
+/* Olga starts the "visualization" block */
+.visualization {
+  max-width: 100%;
+  margin: 93.5px 0px 126px 0px;
+  position: relative;  
+  }
+
+  .visualization__body {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+
+.visualization__title {
+  max-width: 1160px;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  margin: 0 auto;  
+}
+.visualization__title_bold {
+  font-weight: 700;
+}
+.visualization__content {
+  display: flex;
+}
+.visualization__column { 
+  z-index: 2;
+}
+
+.visualization__inscription {
+  margin: 86px 0px 7px 30px;
+}
+
+.image_1 {
+  max-width: 701px;
+  margin: 0px 0px 0px -153px; 
+}
+.image_2 {
+  max-width: 536px;
+  margin: -75px 0px 0px 87px;
+}
+.item-visualization {
+  display: flex;
+}
+.item-1 {
+  margin: 199px 0px 0px 30px;
+}
+.item-2 {
+  margin: 156px 0px 0px 80px;
+}
+.item-3 {
+  margin: 161px 0px 0px 116px;
+}
+.item-visualization__icon {
+  width: 54px;
+  height: 54px;
+  margin: 0px 37px 0px 0px;
+}
+.item-visualization__text {
+  line-height: 30px;
+}
+
+/* .visualization__elements {
+  }
+  
+.visualization__branch {
+  background-image: url(../images/visualization_branch.png);
+  width: 316px;
+  height: 488px;
+  position: absolute;
+  top: 40.5%;
+  left: 58%;
+}
+
+.visualization__circle {
+  background-image: url(../images/visualization_circle.png);
+  width: 862px;
+  height: 882px;
+  position: absolute;
+  top: 10.3%;
+  left: 25%;
+  z-index: 1;  
+} */
+
+
+/* Olga finishes the "visualization" block */
+>>>>>>> a0cce027e7c0eb9060d0688cc537bdbae311d212
