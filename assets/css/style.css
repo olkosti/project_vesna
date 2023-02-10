@@ -93,8 +93,8 @@ img {
   font-size: 24px;
 }
 /*Natalie default styles end*/
-<<<<<<< HEAD
-<!--Gulya start-->
+
+/*Gulya start*/
 .reviews {
   min-height: 440px;
   display: flex;
@@ -153,8 +153,7 @@ padding-block-end: 50px;
 
 }
 
-<!--Gulya finish-->
-=======
+/*Gulya finish*/
 
 
 /* Olga starts the "visualization" block */
@@ -243,4 +242,3 @@ padding-block-end: 50px;
 
 
 /* Olga finishes the "visualization" block */
->>>>>>> a0cce027e7c0eb9060d0688cc537bdbae311d212
