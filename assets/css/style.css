@@ -242,3 +242,49 @@ padding-block-end: 50px;
 
 
 /* Olga finishes the "visualization" block */
+.presentation__body {
+  max-width: 75%;
+  margin: 0 auto;
+}
+.presentation__title {
+  max-width: 1117px;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  margin: 0 auto;
+}
+.presentation__title_bold {
+  font-weight: 700;
+}
+
+.presentation__content {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  width: 100%;
+  padding: 53px;
+}
+.left_branch {
+  left: 25.44%;
+  right: 47.93%;
+  top: 14.87%;
+  bottom: 81.82%;
+}
+.right_branch {
+  left: 75.67%;
+  right: 0%;
+  top: 14.72%;
+  bottom: 82.25%;
+}
+.presentation__text {
+  max-width: 856px;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+.presentaton_images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  max-width: 100%;
+}
