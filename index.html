@@ -1,39 +1,120 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VESNA</title>
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>VESNA</title>
-  <link rel="stylesheet" href="assets/css/normalize.css" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-
-<body>
-  <div class="wrapper">
-    <header class="header"></header>
-    <main class="main">
-      <!-- Титульная страница -->
-      <section class="page-title">
-        <div class="page-title__image">
-          <img src="assets/images/page-title.png" alt="Ландшафтная студия VESNA" />
+  <body>
+    <div class="wrapper">
+      <!--Natalie header start-->
+      <header class="header">
+        <div class="header__container">
+          <a href="#!" class="header__logo">
+            <img src="assets/images/header__logo.svg" alt="логотип" />
+          </a>
+          <nav class="header__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#!" class="menu__link">Главная</a>
+              </li>
+              <li class="menu__item">
+                <a href="#!" class="menu__link">Портфолио</a>
+              </li>
+              <li class="menu__item">
+                <a href="#!" class="menu__link">Услуги</a>
+              </li>
+              <li class="menu__item">
+                <a href="#!" class="menu__link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__buttons">
+            <button
+              class="header__button header__button-callback"
+              type="button"
+            >
+              +7 (921) 888 88 88
+            </button>
+            <button
+              class="header__button header__button-consultation"
+              type="button"
+            >
+              Бесплатная консультация
+            </button>
+          </div>
         </div>
-      </section>
+      </header>
+      <!--Natalie header end-->
+
+      <main class="main">
+        <!-- Титульная страница -->
+        <!--Natalie page-title start-->
+        <section class="page-title">
+          <div class="page-title__container">
+            <div class="page-title__body">
+              <div class="page-title__content-wrapper">
+                <div class="page-title__content">
+                  <h1 class="page-title__title">Ландшафтная студия VESNA</h1>
+                  <h2 class="page-title__subtitle">
+                    Создаем авторские ландшафты с вашим характером
+                  </h2>
+                  <h3 class="page-title__text">От идеи до полной реализации</h3>
+                </div>
+                <div class="page-title__image">
+                  <img
+                    src="assets/images/page-title__image.png"
+                    alt="веточка"
+                  />
+                </div>
+              </div>
+              <div class="page-title__slider-wrapper">
+                <div class="page-title__project">
+                  <h3 class="page-title__project-title">Последний проект</h3>
+                  <div class="page-title__project-icon">
+                    <img
+                      src="assets/images/project__icon.png"
+                      alt="стрелочка"
+                    />
+                  </div>
+                  <a href="#!" class="page-title__project-image">
+                    <img
+                      src="assets/images/project__image.png"
+                      alt="фото проекта"
+                    />
+                  </a>
+                </div>
+                <div class="page-title__slider-icons">
+                  <img src="assets/images/slider__icons.png" alt="стрелочки" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page-title__banner">
+            <img src="assets/images/page-title.jpg" alt="фоновое изображение" />
+          </div>
+        </section>
+        <!--Natalie page-title end-->
 
       <!-- Создаем не просто красивый сад с картинки -->
       <section class="presentation">
-        <div class="presentation_creation">
-          <p>Создаем не просто красивый сад с картинки, <br>а место, куда захочется возвращаться</p>
+        <div class="presentation__body">
+          <h2 class="presentation__title">Создаем не просто красивый сад с картинки, <br><span class="presentation__title_bold">а место, куда захочется возвращаться</span></h2>
         </div>
-        <div class="presentation_clarification">
-          <p>От проекта до ухода за садом – один подрядчик.<br>
+        <div class="presentation__content">
+          <div class="left_branch"></div>
+          <p class="presentation__text">От проекта до ухода за садом – один подрядчик.<br>
             Мы несем ответственность за все этапы работ. Ваш сад будет органичен и<br>выполнен в одном стиле. Мы делаем
             участок<br>практичным, безопасным и комфортным для всех членов семьи.<br>
             В работе мы используем современные и качественные материалы,<br>как залог долговечности производимых работ.
             Благодаря нашему подходу,<br>исключаются возможные ошибки до начала строительных работ, и<br>предотвращаются
             непредвиденные расходы.
           </p>
+          <div class="right_branch"></div>
         </div>
         <div class="presentaton_images">
           <img src="assets/images/presentaion_stone_path.png" alt="Дорожка из камня" />
