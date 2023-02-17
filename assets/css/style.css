@@ -91,12 +91,12 @@ h6 {
   overflow: hidden;
   font-family: "Noah-Regular";
   font-size: 24px;
-  display: flex;
-  flex-direction: column;
+  /*display: flex;
+  flex-direction: column;}*/
 }
 /*Natalie default styles end*/
 
-/*Natalie header start*/
+/*Natalie header styles start*/
 .header {
   position: absolute;
   width: 100%;
@@ -461,13 +461,12 @@ h6 {
     display: none;
   }
 }
-/*Natalie header end*/
+/*Natalie header styles end*/
 
-/*Natalie page-title start*/
-.main {
+/*Natalie page-title styles start*/
+/*.main {
   flex: 1 1 auto;
-}
-
+}*/
 .page-title {
   position: relative;
 }
@@ -999,7 +998,186 @@ h6 {
     height: 556px;
   }
 }
-/*Natalie page-title end*/
+/*Natalie page-title styles end*/
+
+/* Natalie choice styles start */
+.choice__body {
+  background-color: rgba(221, 227, 225, 1);
+}
+
+.choice__title {
+  text-align: center;
+  font-size: 58px;
+  line-height: 100%;
+  padding-top: 77px;
+  color: rgba(26, 26, 24, 1);
+}
+
+.choice__items {
+  max-width: 70%;
+  min-height: 700px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  padding: 113px 0 100px;
+  align-items: start;
+}
+
+.choice__item {
+  display: grid;
+  row-gap: 10%;
+  min-height: 200px;
+}
+
+.choice__item-2,
+.choice__item-4 {
+  align-self: end;
+}
+
+.choice__icon img {
+  max-width: 85px;
+  max-height: 85px;
+}
+
+.choice__text {
+  line-height: 100%;
+  color: rgba(26, 26, 24, 1);
+  text-align: left;
+}
+
+@media screen and (max-width: 1440px) {
+  .choice__items {
+    max-width: 80%;
+    grid-template-columns: 20% 25% 20% 20% 15%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .choice__title {
+    font-size: 50px;
+  }
+  .choice__items {
+    max-width: 85%;
+    grid-template-columns: 20% 22% 20% 18% 20%;
+  }
+  .choice__text {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .choice__title {
+    font-size: 45px;
+    padding-top: 50px;
+  }
+  .choice__items {
+    grid-template-columns: 20% 24% 16% 18% 20%;
+  }
+  .choice__icon img {
+    max-width: 70px;
+    max-height: 70px;
+  }
+  .choice__text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .choice__title {
+    font-size: 30px;
+    padding-top: 40px;
+  }
+  .choice__items {
+    max-width: 90%;
+    min-height: 450px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 70px 0 70px;
+  }
+  .choice__item {
+    display: grid;
+    row-gap: 5%;
+    min-height: 130px;
+  }
+  .choice__icon img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  .choice__text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .choice__title {
+    font-size: 28px;
+  }
+  .choice__items {
+    max-width: 95%;
+    padding: 60px 0 60px;
+  }
+  .choice__icon img {
+    max-width: 45px;
+    max-height: 45px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .choice__title {
+    font-size: 28px;
+  }
+  .choice__items {
+    max-width: 81%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: none;
+    padding: 50px 0 50px;
+  }
+  .choice__item {
+    min-height: 100px;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+    column-gap: 26px;
+  }
+  .choice__item-1 {
+    grid-row: 1;
+  }
+  .choice__item-2 {
+    grid-row: 4;
+  }
+  .choice__item-3 {
+    grid-row: 2;
+  }
+  .choice__item-4 {
+    grid-row: 5;
+  }
+  .choice__item-5 {
+    grid-row: 3;
+  }
+  .choice__icon img {
+    max-width: 38px;
+    max-height: 38px;
+  }
+  .choice__text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .choice__title {
+    font-family: "Noah-Bold";
+    font-size: 24px;
+  }
+  .choice__items {
+    max-width: 76%;
+    min-height: 426px;
+    padding: 40px 0 40px;
+    gap: 20px;
+  }
+  .choice__item {
+    min-height: 40px;
+  }
+}
+/* Natalie choice styles end */
+
 /*Gulya start*/
 .reviews {
   width: 100%;
