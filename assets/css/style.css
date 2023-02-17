@@ -1185,46 +1185,75 @@ h6 {
   margin: 0 auto;
 }
 .presentation__title {
-  max-width: 1117px;
+  max-width: 100%;
   font-size: 48px;
-  line-height: 60px;
+  line-height: 125%;
   text-align: center;
-  margin: 0 auto;
+}
+@media screen and (max-width: 376px) {
+  .presentation__title {
+    max-width: 100%;
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+    font-family: Noah-Regular;
+    padding: 1rem;
+  }
 }
 .presentation__title_bold {
   font-weight: 700;
 }
-
 .presentation__content {
   display: grid;
   grid-template-columns: 15% 70% 15%;
-  width: 100%;
-  padding: 53px;
+  max-width: 100%;
 }
-.left_branch {
-  left: 25.44%;
-  right: 47.93%;
-  top: 14.87%;
-  bottom: 81.82%;
+@media screen and (max-width: 376px){
+  .presentation__content {
+    grid-template-columns: none;
+    margin: 0 20px;
+    padding: 0;
+  }
 }
-.right_branch {
-  left: 75.67%;
-  right: 0%;
-  top: 14.72%;
-  bottom: 82.25%;
+.branch {
+width: 100%;
+align-self: self-end;
+}
+@media screen and (max-width: 376px) {
+  .branch {
+    display: none;
+  }
 }
 .presentation__text {
-  max-width: 856px;
   font-size: 24px;
-  line-height: 30px;
+  line-height: 125%;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 20px;
+}
+@media screen and (max-width: 376px) {
+  .presentation__text {
+    font-size: 18px;
+  }
 }
 .presentaton_images {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
   gap: 1rem;
+  margin: 60px;
   max-width: 100%;
+}
+.presentation_img {
+  width: 100%;
+}
+@media screen and (max-width: 376px) {
+  .presentaton_images {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    max-width: 100%;
+    margin: 0;
+  }
 }
 /*-------------------------------------------------- Galina end "presentaton"--------------------------------------------------*/
 
