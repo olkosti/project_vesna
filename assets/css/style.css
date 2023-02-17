@@ -1189,15 +1189,14 @@ h6 {
   font-size: 48px;
   line-height: 125%;
   text-align: center;
-  margin: 0 auto;
 }
 @media screen and (max-width: 376px) {
   .presentation__title {
     max-width: 100%;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 125%;
     text-align: center;
-    font: Noah;
+    font-family: Noah-Regular;
     padding: 1rem;
   }
 }
@@ -1211,7 +1210,8 @@ h6 {
 }
 @media screen and (max-width: 376px){
   .presentation__content {
-    margin: 0;
+    grid-template-columns: none;
+    margin: 0 20px;
     padding: 0;
   }
 }
@@ -1228,7 +1228,12 @@ align-self: self-end;
   font-size: 24px;
   line-height: 125%;
   text-align: center;
-  margin: auto;
+  margin: 0 20px;
+}
+@media screen and (max-width: 376px) {
+  .presentation__text {
+    font-size: 18px;
+  }
 }
 .presentaton_images {
   display: grid;
