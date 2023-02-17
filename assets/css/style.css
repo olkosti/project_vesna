@@ -242,11 +242,10 @@ flex-direction: column-reverse;
   color:#545A2F;
 
 }
-#reviewspic {
-  
-    max-width: 100%;
-    height: auto;
-  }
+
+ #reviewspic {
+  max-width: 100%;
+  height: auto;}
 
 
 
@@ -390,9 +389,7 @@ img {
 }
 
 @media (max-width: 991px) {
-  html {
-    font-size: 6px;
-  }
+  
 
   .page__body {
     font-size: 16px;
