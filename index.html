@@ -201,50 +201,39 @@
       <!-- Как выбрать растения для сада? -->
       <section class="mailing"></section>
 
-          <!-- Наши проекты -->
-          <section class="projects">
-            <!--Natalie projects start-->
-            <h2 class="projects__title">Наши проекты</h2>
-          <div class="projects__gallery">
-            <ul class="projects__items">
-              <li class="projects__item">
-                <a href="#!" class="projects__link">
-                  <img
-                    src="assets/images/projects195.jpg"
-                    alt="фото проектов"
-                  />
-                </a>
-              </li>
-              <li class="projects__item">
-                <a href="#!" class="projects__link">
-                  <img
-                    src="assets/images/projects106.jpg"
-                    alt="фото проектов"
-                  />
-                </a>
-              </li>
-              <li class="projects__item">
-                <a href="#!" class="projects__link">
-                  <img
-                    src="assets/images/projects107.jpg"
-                    alt="фото проектов"
-                  />
-                </a>
-              </li>
-              <li class="projects__item">
-                <a href="#!" class="projects__link">
-                  <img
-                    src="assets/images/projects108.png"
-                    alt="фото проектов"
-                  />
-                </a>
-              </li>
-              <li class="projects__item-btn">
-                <a href="#!" class="projects__btn">Все проекты</a></li>
-            </ul>
-          </div>
-            <!--Natalie projects end-->
-          </section>
+      <!-- Наши проекты -->
+      <section class="projects">
+        <!--Natalie projects start-->
+        <h2 class="projects__title">Наши проекты</h2>
+        <div class="projects__gallery">
+          <ul class="projects__items">
+            <li class="projects__item">
+              <a href="#!" class="projects__link">
+                <img src="assets/images/projects195.jpg" alt="фото проектов" />
+              </a>
+            </li>
+            <li class="projects__item">
+              <a href="#!" class="projects__link">
+                <img src="assets/images/projects106.jpg" alt="фото проектов" />
+              </a>
+            </li>
+            <li class="projects__item">
+              <a href="#!" class="projects__link">
+                <img src="assets/images/projects107.jpg" alt="фото проектов" />
+              </a>
+            </li>
+            <li class="projects__item">
+              <a href="#!" class="projects__link">
+                <img src="assets/images/projects108.png" alt="фото проектов" />
+              </a>
+            </li>
+            <li class="projects__item-btn">
+              <a href="#!" class="projects__btn">Все проекты</a>
+            </li>
+          </ul>
+        </div>
+        <!--Natalie projects end-->
+      </section>
 
       <!-- 4 шага до реализации проекта вашей мечты  -->
       <section class="realization">
@@ -360,17 +349,19 @@
         <div class="reviews__container">
           <div class="reviews__header">
             <h2 class="reviews__title">Отзывы о нас</h2>
-
           </div>
           <div class="reviews_main">
             <div class="reviews__container_block-1">
-              <img src="assets/images/Rectangle110.png" alt="reviewspic">
+              <img class="reviews__image" src="assets/images/Rectangle110.png" alt="reviewspic">
             </div>
             <div class="reviews__container_block-2">
-              <a class="reviews__logo" href=""><img src="assets/images/Vector.png" alt="reviewslogo">Анна&nbspСмирнова
-                </nobr><br>Благоустройство<nobr>
-                  сада в Агалатово</nobr></a>
-              <p class="tagline">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              <img class="reviews__logo" src="assets/images/Vector.png" alt="reviewslogo">
+              <div class="reviews__subtitle">
+                <p class="reviews__subtitle1">Анна Смирнова</p>
+                <p class="reviews__subtitle2">Благоустройство сада в Агалатово</p>
+              </div>
+              <p class="reviews__tagline">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                 ullamco
                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -380,13 +371,14 @@
                 in
                 culpa
                 qui officia deserunt mollit anim id est laborum.</p>
-              <div class="reviews__container_block-2_arrows2"><img src="assets/images/Group17.png" alt="arrows2">
-              </div>
-              <div class="reviews__container_block-2_arrows"><img src="assets/images/Slice1.png" alt="arrows">
+              <div class="reviews__container_block-2_arrows2"><img src="assets/images/Slice1.png" alt="arrows2">
               </div>
             </div>
           </div>
-
+          <div class="reviews__slider">
+            <img src="assets/images/Group17.png" alt="arrows">
+          </div>
+        </div>
       </section>
 
       <!-- Часто задаваемые вопросы -->
@@ -439,7 +431,7 @@
             <h3 class="sidebar__title">Как выбрать растения для сада?</h3>
             <p class="sidebar__subtitle">Пришлем инструкцию!</p>
             <div class="sidebar__image">
-              <img src="assets/images/questions_journal.png" alt="">
+              <img class="sidebar__image" src="assets/images/questions_journal.png" alt="">
             </div>
             <form class="sidebar__form">
               <input class="sidebar__email" placeholder="Ваш Email" type="text" id="email">
@@ -458,7 +450,7 @@
       <section class="call">
         <div class="container__call">
           <div class="wrapper__container__call-1">
-            <h2 class="call__title">Остались&nbspвопросы?</h2><span class="call__title2">Пригласите ландшафтного
+            <h2 class="call__title">Остались вопросы?</h2><span class="call__title2">Пригласите ландшафтного
               дизайнера
               на участок!</span>
 
