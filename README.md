@@ -5,6 +5,8 @@
 https://olkosti.github.io/project_vesna/
 
 ## Авторы:
+Ольга @olkosti
+
 Наталья @nsshakula
 
 Гульнара @guliasir
